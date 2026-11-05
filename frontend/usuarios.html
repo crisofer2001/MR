@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Usuarios y roles · Moto MR</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Barlow+Semi+Condensed:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body data-page="usuarios">
+<main>
+<h1>Usuarios y roles</h1>
+<p class="nota">El administrador gestiona productos y usuarios; el vendedor registra ventas.</p>
+<div class="bar">
+<label class="grow">Buscar usuario<input id="q" type="search" placeholder="Nombre o correo"></label>
+<button class="btn" id="nuevo" style="margin-bottom:.8rem">Agregar usuario</button>
+</div>
+<div class="tablewrap"><table><thead><tr><th>Nombre</th><th>Correo</th><th>Rol</th></tr></thead><tbody id="filas"></tbody></table></div>
+</main>
+<script src="js/app.js"></script>
+</body>
+</html>
